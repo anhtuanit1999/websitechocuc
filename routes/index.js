@@ -13,4 +13,20 @@ router.get('/baidang', function(req, res, next) {
 router.get('/lienhe', function(req, res, next) {
     res.render('lienhe');
 });
+
+router.get('/quote1', function(req, res, next) {
+    res.render('quote1');
+});
+
+router.get('/quote2', function(req, res, next) {
+    res.render('quote2');
+});
+
+router.get('/quote3', function(req, res, next) {
+    res.render('quote3');
+});
+
+router.get('/thanhtoan', function(req, res, next) {
+    res.render('thanhtoan');
+});
 module.exports = router;
