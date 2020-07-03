@@ -37,4 +37,8 @@ router.get('/quote3', function(req, res, next) {
 router.get('/thanhtoan', function(req, res, next) {
     res.render('thanhtoan');
 });
+
+router.get('/checkout', function(req, res, next) {
+    res.render('checkout');
+});
 module.exports = router;
