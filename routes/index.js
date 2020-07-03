@@ -14,6 +14,14 @@ router.get('/lienhe', function(req, res, next) {
     res.render('lienhe');
 });
 
+router.get('/lich', function(req, res, next) {
+    res.render('lich');
+});
+
+router.get('/calendar', function(req, res, next) {
+    res.render('calendar');
+});
+
 router.get('/quote1', function(req, res, next) {
     res.render('quote1');
 });
